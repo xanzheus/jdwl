@@ -26,17 +26,10 @@ function NextDay({ nextDay }) {
           .
         </Text>
       </div>
- <body class="font-sans dark:bg-gray-700">
-    <section id="bg-particles" class="relative bg-white rounded-b-lg lg:rounded-b-2xl container max-w-5xl mx-auto p-4 h-screen min-h-full dark:bg-gray-800">
-      <div class="relative z-10 h-full">
-        <div class="flex justify-between px-5 pt-5">
-          <a class="toggle-dark mr-5" href="#" onclick="darkMode()">
-            </svg>
-          </a>
-
       <div className={styles.buttonDiv}>
         <Button onClick={toggleColorMode}>
           Toggle {colorMode() === "light" ? "dark" : "light"}
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
         </Button>
       </div>
     </HStack>
