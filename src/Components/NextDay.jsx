@@ -26,10 +26,9 @@ function NextDay({ nextDay }) {
           .
         </Text>
       </div>
-      <div className={styles.buttonDiv}>
+      <div class="bi bi-moon-fill" className={styles.buttonDiv}>
         <Button onClick={toggleColorMode}>
-          Toggle {colorMode() === "light" ? "dark" : "light"}
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+          Toggle class="bi bi-moon-fill" {colorMode() === "light" ? "dark" : "light"}
         </Button>
       </div>
     </HStack>
