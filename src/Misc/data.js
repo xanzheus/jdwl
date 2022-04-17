@@ -1,7 +1,7 @@
 const jadwal = [
   {
     hari: "Senin",
-    mapel: [Sunda, "B.Indonesia", "PPKN", "B.Inggris"],
+    mapel: ["Sunda", "B.Indonesia", "PPKN", "B.Inggris"],
   },
   {
     hari: "Selasa",
