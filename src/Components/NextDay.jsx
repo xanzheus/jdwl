@@ -28,7 +28,7 @@ function NextDay({ nextDay }) {
       </div>
       <div className={styles.buttonDiv}>
         <Button onClick={toggleColorMode}>
-        Toggle " {colorMode() === "light" ? "dark" : "light"}
+        Toggle {colorMode() === "light" ? "dark" : "light"}
         </Button>
       </div>
     </HStack>
