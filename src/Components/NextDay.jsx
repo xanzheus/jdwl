@@ -32,13 +32,6 @@ function NextDay({ nextDay }) {
         </Button>
       </div>
 
-<!-- Copyright -->
- <Text>
-     class="footer-copyright text-center py-3 text-secondary"><small> Made with
-        <i class="fas fa-heart text-danger animate__animated animate__bounce animate__repeat-3 hati"></i> by
-        <a href="https://www.instagram.com/ryan.frf/"  class="text-decoration-none text-secondary">ryan.frf</a></small>
-</Text>
-
     </HStack>
   );
 }
